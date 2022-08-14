@@ -21,6 +21,33 @@
 		</license>
 	</licenses>
 
+	<!-- 自己添加的阿里云maven仓库 begin-->
+	<repositories>
+		<repository>
+			<id>aliyun</id>
+			<url>https://maven.aliyun.com/repository/public</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>aliyun-plugin</id>
+			<url>https://maven.aliyun.com/repository/public</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+	<!-- 自己添加的阿里云maven仓库 end-->
+
 	<scm>
 		<url>https://github.com/EsotericSoftware/reflectasm</url>
 		<connection>scm:git:git@github.com:EsotericSoftware/reflectasm.git</connection>
